@@ -1,0 +1,18 @@
+/* Makes the width for the container div a static 500x500 px */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    max-width: 500px;
+    height: 500px;
+    max-height: 500px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+}
+/* style optione for the 256 divs */
+.items{
+    border-style: solid;
+    border-color: lightgray;
+}
