@@ -46,6 +46,9 @@ function inputGridSize(size){
     for(let i = 0; i < numDivs; i++) {
         const divs = document.createElement('div');
         divs.classList.add('items');
+        divs.addEventListener('mouseover', function(){
+            divs.style.backgroundColor = "black";
+        })
         container.appendChild(divs);
     }
 }
